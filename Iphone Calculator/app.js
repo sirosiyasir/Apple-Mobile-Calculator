@@ -3,7 +3,7 @@
 /* C: +/- butonuna tıklayınca value'nin önüne - eksi getir */
 const result = document.getElementById("result");
 const buttons = document.getElementById("buttons");
-
+const swipe = document.getElementById("swipe");
 
 //A
 function display(val) {
@@ -54,8 +54,9 @@ setInterval(() => {
 }, 2000); */
 
 /* SWIPE CODE TAKEN FROM GIVANSE https://stackoverflow.com/users/7852/givanse */
-document.getElementById("swipe").addEventListener('touchstart', handleTouchStart, false);        
-document.getElementById("swipe").addEventListener('touchmove', handleTouchMove, false);
+
+swipe.addEventListener('touchstart', handleTouchStart, false);        
+swipe.addEventListener('touchmove', handleTouchMove, false);
 
 var xDown = null;                                                        
 var yDown = null;
