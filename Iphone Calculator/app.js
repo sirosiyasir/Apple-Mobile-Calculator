@@ -43,10 +43,12 @@ function swipeUp() {
 
 setInterval(() => {
   $("#swipe").addClass("swipe-up");
-}, 2500);
+  $("#swipe").slideUp();
+}, 4500);
 setInterval(() => {
   $("#swipe").removeClass("swipe-up");
-}, 3000);
+  $("#swipe").slideDown();
+}, 4505);
 
 /* SWIPE UP REMINDER */
 /* setTimeout(() => {
