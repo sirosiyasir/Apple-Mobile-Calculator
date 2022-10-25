@@ -1,0 +1,140 @@
+
+/*                        YAPILACAKLAR                      */
+/* INPUT'A DEĞER GIRINCE PLACEHOLDER'IN HIZASINDAN BAŞLASIN */
+/* BORDER'I IPHONE'NIN GÜMÜŞ GRISI RENGINDE YAP KI DAHA ÇOK BENZESIN */
+/* BUTTONLAR'IN BACKGROUND-COLOR'LARINI TAM RENK TUTTUR */
+/* "+/-" VE "%" IŞARETLERINI DE HESAP MAKINESINE EKLE */
+/* "+/-" işaretine function oluştur tıklandıkça + ve - olsun */
+
+/* ELEMENETS */
+a {
+    text-decoration: none;
+}
+
+
+ p {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+ }
+
+span {
+    margin-left: 8.2rem;
+}
+
+i {
+    margin-left: 1%;
+}
+
+h3,
+h6,
+i,
+a,
+a:hover,
+::placeholder,
+p {
+    color: #fff;
+}
+
+h3 {
+    margin-bottom: 4rem;
+}
+
+h6 {
+    text-align: right;
+    margin-top: 6rem;
+}
+
+::placeholder {
+    text-align: right;
+    /* margin-right: 1.5rem; */
+}
+
+/* ID SELECTORS */
+#result {
+    border: none;
+    border-style: none;
+    border-color: #000;
+    background-color: #000;
+    color: #fff;
+    margin-top: 3.8rem;
+    font-size: 4rem;
+    text-align: right;
+    width: 15rem;
+}
+
+#swipe {
+    background-color: #fff;
+    width: 7rem;
+    height: 0.3rem;
+    border-radius: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.4rem;
+    cursor: pointer;
+}
+
+#swipe-completed {
+    margin-top: 5rem;
+    display: none;
+}
+
+/* CLASSES */
+.button {
+    background-color: #262626;
+    font-size: 1.6rem;
+}
+
+.button,
+.operator,
+.equal {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 2rem;
+    border: none;
+    margin-top: 10px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.calculator {
+    padding: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 19rem;
+    height: 39rem;
+    background-color: black;
+    border-radius: 3rem;
+    margin-top: 5rem;
+    border: 3px solid;
+    border-color: #B4CDE6;
+}
+
+.operator,
+.equal {
+    background-color: orange;
+    font-size: 1.6rem;
+}
+
+.swipe-up {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+
+.top-three {
+    background-color: #848884;
+    color: #000;
+}
+
+.twitter,
+.linkedin {
+    margin-left: 0.5rem;
+}
+
+.zero {
+    padding-left: 1.2rem;
+    padding-right: 6rem;
+}
