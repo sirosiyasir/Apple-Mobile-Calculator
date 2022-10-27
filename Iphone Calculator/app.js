@@ -41,19 +41,23 @@ function swipeUp() {
   
 }
 
+/* SWIPE UP REMINDER */
 setInterval(() => {
   $("#swipe").addClass("swipe-up");
-  $("#swipe").slideUp();
-}, 4500);
+  /* $("#swipe").slideUp(); */
+}, 8000);
 setInterval(() => {
   $("#swipe").removeClass("swipe-up");
-  $("#swipe").slideDown();
-}, 4505);
+  /* $("#swipe").slideDown(); */
+}, 8150);
 
-/* SWIPE UP REMINDER */
-/* setTimeout(() => {
-  result.value = "swipe up";
-}, 2000); */
+setTimeout(() => {
+  $("#swipe").slideUp();
+}, 3000);
+
+setTimeout(() => {
+  $("#swipe").slideDown();
+}, 3100);
 
 /* SWIPE CODE TAKEN FROM GIVANSE https://stackoverflow.com/users/7852/givanse */
 
