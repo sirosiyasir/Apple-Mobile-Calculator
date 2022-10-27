@@ -17,8 +17,6 @@
 <body>
   
 <div class="container-fluid">
-
- 
   <div class="calculator">
     
     <p>9 : 41 </p><span>
@@ -33,31 +31,30 @@
     <button type="button" class="operator top-three" value="/" onClick="addSub()">+/-</button>
     <button type="button" class="operator top-three" value="/" onClick="display('/100*')">%</button>
     <button type="button" class="operator" value="/" onClick="display('/')">&divide;</button>
-<br>
-    <button type="button" class="button" value="7" onClick="display('7')">7</button>
-    <button type="button" class="button" value="8" onClick="display('8')">8</button>
-    <button type="button" class="button" value="9" onClick="display('9')">9</button>
-    <button type="button" class="operator" value="*" onClick="display('*')">&times;</button>
-      <br>
-    <button type="button" class="button" value="4" onClick="display('4')">4</button>
-    <button type="button" class="button" value="5" onClick="display('5')">5</button>
-    <button type="button" class="button" value="6" onClick="display('6')">6</button>
-    <button type="button" class="operator" value="-" onClick="display('-')">-</button>
-  <br>
-    <button type="button" class="button" value="1" onClick="display('1')">1</button>
-    <button type="button" class="button" value="2" onClick="display('2')">2</button>
-    <button type="button" class="button" value="3" onClick="display('3')">3</button>
-    <button type="button" class="operator" value="+" onClick="display('+')">+</button>
-  <br>
-    <button type="button" class="button zero" value="0" onClick="display('0')">0</button>
-    <button type="button" class="button" value="." onClick="display('.')">.</button>
-    <button type="button" class="equal" value="=" onClick="solve()">=</button>
+
+    <button type="button" class="button" onClick="display('7')">7</button>
+    <button type="button" class="button" onClick="display('8')">8</button>
+    <button type="button" class="button" onClick="display('9')">9</button>
+    <button type="button" class="operator" onClick="display('*')">&times;</button>
+
+    <button type="button" class="button" onClick="display('4')">4</button>
+    <button type="button" class="button" onClick="display('5')">5</button>
+    <button type="button" class="button" onClick="display('6')">6</button>
+    <button type="button" class="operator" onClick="display('-')">-</button>
+
+    <button type="button" class="button" onClick="display('1')">1</button>
+    <button type="button" class="button" onClick="display('2')">2</button>
+    <button type="button" class="button" onClick="display('3')">3</button>
+    <button type="button" class="operator" onClick="display('+')">+</button>
+
+    <button type="button" class="button zero" onClick="display('0')">0</button>
+    <button type="button" class="button" onClick="display('.')">.</button>
+    <button type="button" class="equal" onClick="solve()">=</button>
   
 </div>
 
 <!-- Swipe Up completed -->
   <div id="swipe" onClick="swipeUp()"></div>
-
   <div id="swipe-completed">
     <h3>Thanks for using my calculator❤</h3>
     <a href="https://github.com/sirosiyasir" class="github"><i class="fa-brands fa-github"></i> GitHub</a>
@@ -65,11 +62,9 @@
     <a href="https://www.linkedin.com/in/yasir-%C3%A7e%C5%9Fmeci-7104b9250/" class="linkedin"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
     <h6>Yasir Çeşmeci</h6>
     </div>
-
 </div>
 </div>
-    
-
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="app.js"></script>
 </body>
